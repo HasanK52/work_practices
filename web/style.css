@@ -1,0 +1,97 @@
+/* Genel Stiller */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.browser-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.red { background-color: #ff5f57; }
+.yellow { background-color: #ffbd2e; }
+.green { background-color: #28c840; }
+
+nav {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.home-section, .about, .navecomt, .about-mini, .additional-info {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.home-section p {
+    font-size: 16px;
+}
+
+.home-section button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.footer-nav button {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}

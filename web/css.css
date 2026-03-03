@@ -1,0 +1,32 @@
+body{
+	background-color: darkblue;
+	color: white;
+	font-size: 20px;
+}
+.container{
+	display: flex;
+}
+.left-column, .right-column{
+	flex: 1;
+}
+.menu{
+	list-style-type: none;
+	padding-right: 5px;
+	margin-bottom:100px;
+	margin-right: 100px;
+	display: flex;
+	
+}
+.menu li{
+	margin: 0;
+}
+.menu a{
+	text-decoration: none;
+	color: darkred;
+	font-display: block;
+	transition: background-color 0.3s;
+}
+.menu a:hover{
+	background-color: white;
+	color: black;
+}
